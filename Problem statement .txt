@@ -1,0 +1,13 @@
+Problem Statement: Customer Segmentation for Targeted Marketing
+Context
+A retail company wants to understand its customer base better to optimize its marketing strategies, enhance customer engagement, and maximize revenue. The company has collected historical data on customer demographics (e.g., age, education, marital status), household structures, income levels, and purchasing behavior across various product categories (wines, fruits, meat, fish, sweets, and gold) and channels (web, catalog, store, and deals).
+
+Objective
+The primary objective is to perform unsupervised machine learning (clustering) on the customer dataset to group individuals into distinct, meaningful segments based on their socio-demographic characteristics and spending patterns.
+
+Key Goals
+Data Preprocessing & Feature Engineering: Clean missing values, handle outliers (such as extreme values in age and income), encode categorical features, and extract new behavioral metrics like total_spending, Age, and Customer_Tenure_Days.
+Dimensionality Reduction: Utilize Principal Component Analysis (PCA) to compress high-dimensional features while retaining maximum variance to visualize clusters and improve clustering model performance.
+Optimal Cluster Identification: Apply K-Means and Agglomerative Hierarchical Clustering, using evaluation methods like the Elbow Method (WCSS) and Silhouette Score, to identify the optimal number of natural customer segments.
+Profile & Segment Characterization: Analyze each resulting customer segment (e.g., high-income big spenders, middle-class bargain seekers, low-income/high-children households) to understand what drives their buying patterns.
+Business Recommendation: Provide actionable marketing insights for each segment, enabling the marketing team to design personalized campaigns, adjust pricing, offer customized deals, and ultimately improve response rates on future promotions.
